@@ -198,7 +198,7 @@ export default function StudentDashboard() {
                                     {/* Course Header */}
                                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                                         <div className="flex-1 min-w-0">
-                                            <h2 className="card-title text-lg sm:text-xl break-words">
+                                            <h2 className="card-title text-lg sm:text-xl wrap-break-words">
                                                 {enrollment.course?.title}
                                             </h2>
                                             <p className="text-xs sm:text-sm text-base-content/70 mt-1">

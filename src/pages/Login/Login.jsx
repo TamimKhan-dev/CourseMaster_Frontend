@@ -91,7 +91,7 @@ export default function Login() {
                                 <button
                                     type="button"
                                     onClick={() => {
-                                        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYzFmMzdlNjYwMDZmMWRjYmI1YjUyNiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkxMDk4NTg4fQ.4s3Ygh9GtTper2SB8byNILxPSxZ8y3pO-WyFupmQ0Ws";
+                                        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZDcyNTAyNjVkOTk4NDIxZmY3ZDBhMCIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzkyNTY0Nzk0LCJleHAiOjE3OTUxNTY3OTR9.KdQ6n9oBwtfW5tMLbqw7vaR4AkENA33jvj96Z7shSgk";
                                         localStorage.setItem("token", token);
                                         localStorage.setItem("user_token", token);
                                         localStorage.setItem("dev_bypass", "true");
@@ -105,7 +105,7 @@ export default function Login() {
                                 <button
                                     type="button"
                                     onClick={() => {
-                                        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhYzFmMzdlNjYwMDZmMWRjYmI1YjUyNSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MTA5ODU4OH0.vL3Hj-fEGVbouM-cZ9RtMIpaCU5ugRwsNqaKyYdxdNY";
+                                        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZDcyNTAyNjVkOTk4NDIxZmY3ZDA5ZSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MjU2MzIzMiwiZXhwIjoxNzk1MTU1MjMyfQ.sLbpt8EZOaRnbqJv30x0aYY--6zZISwDE_bDRcmHVNc";
                                         localStorage.setItem("token", token);
                                         localStorage.setItem("user_token", token);
                                         localStorage.setItem("dev_bypass", "true");
