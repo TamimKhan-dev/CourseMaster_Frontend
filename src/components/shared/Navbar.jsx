@@ -136,11 +136,7 @@ export default function Navbar() {
 
                         <ul
                             tabIndex={0}
-                            className="
-                menu menu-sm dropdown-content mt-3 p-3 shadow
-                bg-base-100 rounded-box w-56 border border-base-300
-                items-center text-center max-h-32 overflow-hidden
-              "
+                            className="menu menu-sm dropdown-content mt-3 p-3 shadow bg-base-100 rounded-box w-56 border border-base-300 items-center text-center max-h-[80vh] overflow-y-auto flex-nowrap"
                         >
                             <li><NavLink className={navLinkClass} to="/">Home</NavLink></li>
                             <li><NavLink className={navLinkClass} to="/courses">Courses</NavLink></li>
